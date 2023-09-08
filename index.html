@@ -10,24 +10,24 @@
 
 <body>
     <div class="background">
-        <div class="inner-container">
-            <header>
+        <section class="inner-container">
+            <div>
                 <img src="./images/images.jpg" alt="Megan Kullu" data-testid="slackDisplayImage" height="300px" width="220px">
                 <h1 data-test-id="slackUserName">Megan Kullu</h1>
-            </header>
+            </div>
 
             <div class="details">
-                <main>
-                    <p testid="currentDayOfTheWeek" id="day">Day:</p>
-                    <p data-testid="currentUTCTime" id="time">milliseconds</p>
-                    <p data-testid="myTrack">Track : <strong>Frontend</strong></p>
+                <div>
+                    <div testid="currentDayOfTheWeek">Day:&nbsp;<span id="day"></span></div>
+                    <div data-testid="currentUTCTime">UTC in Milliseconds:&nbsp;<span id="time"></span></div>
+                    <div data-testid="myTrack">Track :&nbsp;<strong>Frontend</strong></div>
         
-                </main>
-                <footer>
+                </div>
+                <div>
                     <a href="https://github.com/MeganKullu" data-testid="githubURL">My GitHub</a>
-                </footer>      
+                </div>      
             </div>           
-        </div>        
+        </section>        
     </div>
     <script src="./app.js"></script>
 </body>
