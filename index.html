@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megan Kullu</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="background">
-        <header>
-            <img src="" alt="Megan Kullu" data-testid="slackDisplayImage">
-            <p data-test-id="slackUserName">Megan Kullu</p>
-        </header>
-    </div>
-    <main>
-        <p data-testid="currentUTCTime"></p>
-        <p data-testid="myTrack">Track:Frontend</p>
+        <div class="inner-container">
+            <header>
+                <img src="./images/images.jpg" alt="Megan Kullu" data-testid="slackDisplayImage" height="300px" width="220px">
+                <h1 data-test-id="slackUserName">Megan Kullu</h1>
+            </header>
+
+            <div class="details">
+                <main>
+                    <p testid="currentDayOfTheWeek" id="day"></p>
+                    <p data-testid="currentUTCTime" id="time"></p>
+                    <p data-testid="myTrack">Track:Frontend</p>
         
-    </main>
-    <footer>
-        <a href="" data-testid="githubURL">My GitHub</a>
-    </footer>    
+                </main>
+                <footer>
+                    <a href="https://github.com/MeganKullu" data-testid="githubURL">My GitHub</a>
+                </footer>      
+            </div>           
+        </div>        
+    </div>
+    <script src="./app.js"></script>
 </body>
+
 </html>
